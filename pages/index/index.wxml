@@ -1,0 +1,11 @@
+<view class="container">
+  <textarea class="markdown-input" placeholder="请输入Markdown文本" bindinput="onInput" value="{{markdownText}}"></textarea>
+  
+  <button class="btn-primary" bindtap="convertToPlainText">转换为纯文本</button>
+  
+  <view class="result-container" wx:if="{{plainText}}">
+    <view class="title">转换结果：</view>
+    <text class="plain-text" selectable="true">{{plainText}}</text>
+    <button class="btn-primary" bindtap="copyText">复制结果</button>
+  </view>
+</view> 

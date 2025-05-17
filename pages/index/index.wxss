@@ -1,0 +1,33 @@
+.markdown-input {
+  width: 100%;
+  height: 300rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  border: 2rpx solid #ddd;
+  border-radius: 8rpx;
+  margin-bottom: 20rpx;
+}
+
+.result-container {
+  margin-top: 30rpx;
+  padding-top: 20rpx;
+  border-top: 2rpx solid #eee;
+}
+
+.title {
+  font-size: 30rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.plain-text {
+  display: block;
+  width: 100%;
+  min-height: 200rpx;
+  padding: 20rpx;
+  background: #f8f8f8;
+  border-radius: 8rpx;
+  margin-bottom: 20rpx;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+} 
